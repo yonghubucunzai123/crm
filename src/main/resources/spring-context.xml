@@ -28,7 +28,7 @@
     </bean>
 
     <!-- 注解式事务 -->
-    <tx:annotation-driven transaction-manager="txManager" />
+
 
     <!-- 配置事务管理器 -->
     <bean id="txManager"
